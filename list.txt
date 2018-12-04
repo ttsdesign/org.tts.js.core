@@ -1,14 +1,14 @@
 Array/
+	last.js
+	first.js
 	Delete.js
 	DeleteAt.js
 	Difference.js
-	first.js
 	Flatten.js
 	From.js
 	Includes.js
 	Intersection.js
 	IsArray.js
-	last.js
 	Omit.js
 	OmitAt.js
 	Select.js
@@ -30,7 +30,6 @@ Functional
 Global
 	context.js
 	log.js
-	Test.js
 Object
 	!/BindAll.js
 	!/_AsArray.js
