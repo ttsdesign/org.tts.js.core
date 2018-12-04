@@ -1,0 +1,37 @@
+{
+	"name": "org.tts.js.core",
+	"version": "0.1.1",
+	"title": "TTS Design javascript core libraries",
+	"description": "TTS Design's javascript core libraries for GScript, NodeJS & Browser implementations",
+	"license": "MIT",
+	"author": {
+		"name": "TTS Design",
+		"email": "ttsdesign@gmail.com",
+		"url": "http://code/ttscloud.co"
+	},
+	"homepage": "http://code.ttscloud.co",
+	"keywords": [
+		"TTS Design",
+		"Javascript",
+		"Core"
+	],
+	"dependencies": {
+	
+	},
+	"devDependencies": {
+		"org.tts.js.pkgtools": "0.1.0"
+	},
+	"main": "dist/org.tts.js.core.js",
+	"scripts": {
+		"make": "PkgTools make"
+	},
+
+	"targets": {
+		"all": "build/all.js",
+		"Array": "build/Array.js",
+		"Functional": "build/Functional.js",
+		"Global": "build/Global.js",
+		"Object": "build/Object.js",
+		"String": "build/String.js"
+	}
+}
