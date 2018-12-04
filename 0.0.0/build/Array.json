@@ -1,0 +1,21 @@
+{
+	"target": "Array",
+	"import": {
+		"directory": "Array",
+		"recursive": true,
+		"unwrap": false,
+		"minify": {"compress": {"keep_fnames": true, "dead_code": false}, "mangle": false},
+		"beautify": false
+	},
+	"export": {
+		"appendCommentData": true,
+		"docs": false,
+		"join": "\n",
+		"tests": false,
+		"todo": false,
+		"wrap": {
+			"pre": "(function(NS) {\n",
+			"post": "\n}(typeof window !== 'undefined' ? window : (typeof global !== 'undefined') ? global : this))"
+		}
+	}
+}
